@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+}
+
+
+/* HEADER */
+
+header {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* HERO */
+
+.hero {
+    background: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+.button {
+    background: white;
+    color: #2563eb;
+    padding: 14px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+/* SERVICES */
+
+#services {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+
+#services h2 {
+    margin-bottom: 35px;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+.card p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.card h4 {
+    color: #2563eb;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* BUTTON */
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+button:hover {
+    background: #1d4ed8;
+}
+
+
+/* CONTACT */
+
+#contact {
+    background: white;
+    padding: 60px 20px;
+}
+
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+
+form button {
+    width: 100%;
+}
+
+
+#successMessage {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .hero h2 {
+        font-size: 30px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+}
+
